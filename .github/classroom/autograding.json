@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "python main.py",
+      "input": "1 2 2 2 3\r\n2",
+      "output": "[\\w,\" \"]*3[\\w,\" \"]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "python main.py",
+      "input": "10 20 20 20 30\r\n20",
+      "output": "[\\w,\" \"]*3[\\w,\" \"]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "python main.py",
+      "input": "1 2 3 4 5\r\n6",
+      "output": "[\\w,\" \"]*0[\\w,\" \"]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
